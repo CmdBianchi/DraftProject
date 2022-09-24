@@ -1,27 +1,21 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-
-#bgsite {
-  background-color: pink;
 }
 
 a {
   color: #00B7FF;
 }
 
-#bgsite {
-  color: rgb(2, 243, 2);
+h1 {
+  color: #00B7FF;
+}
+
+#banner-wellcome {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
 }

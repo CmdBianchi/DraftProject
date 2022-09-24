@@ -38,10 +38,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.post('/add', function(req, res){
-  alert("sometext")
-});
-
 const port = 5000;
 app.listen(process.env.PORT || port, () => console.log(`Example app listening at http://localhost:${port}`));
 
